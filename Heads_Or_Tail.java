@@ -7,6 +7,11 @@ public class Heads_Or_Tail {
         int head_count = 0;
         int tail_count = 0;
 
+        Scanner myObj = new Scanner(System.in);
+        System.out.println("Who are you?");
+        String user_name = myObj.nextLine();
+        System.out.println("Hello, " + user_name + "!");
+
         System.out.println("Tossing a coin...");
 
         for (int i = 0; i < 3; i++) {
@@ -23,7 +28,9 @@ public class Heads_Or_Tail {
             }
         }
 
+
         System.out.println("Heads: " + head_count + ", Tails: " + tail_count);
+
 
     }
 }
