@@ -1,5 +1,5 @@
 import java.util.Random;
-
+import java.util.Scanner;
 
 public class Heads_Or_Tail {
     public static void main(String[] strings) {
@@ -32,8 +32,9 @@ public class Heads_Or_Tail {
         System.out.println("Heads: " + head_count + ", Tails: " + tail_count);
 
         if (head_count > tail_count){
-            System.out.println("You won!");
-        } else {System.out.println("You lost!");}
+            System.out.println(user_name + " won!");
+        } else {System.out.println(user_name + " lost!");}
+
 
     }
 }
